@@ -9,6 +9,10 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
+app.use(cors({
+  origin: 'https://zippy-pudding-4c24a6.netlify.app',
+  credentials: true,
+}));
 
 app.use(express.json({ limit: "16kb" }));
 app.use(express.urlencoded({ extended: true, limit: "16kb" }));
