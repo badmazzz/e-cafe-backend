@@ -4,7 +4,7 @@ import cors from "cors";
 const app = express();
 
 const corsOptions = {
-  origin: "https://capable-cupcake-ddc33c.netlify.app",
+  origin: "https://spontaneous-hummingbird-b42cf6.netlify.app",
   credentials: true,
 };
 
