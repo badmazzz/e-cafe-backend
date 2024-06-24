@@ -25,7 +25,7 @@ import orderRouter from "./routes/order.routes.js"
 //Route Declaration
 app.use("/api/v1/user", userRouter);
 app.use("/api/v1/table", tableRouter);
-app.use("/api/v1/menu", menuRouter);
+app.use("/menu", menuRouter);
 app.use("/api/v1/order", orderRouter);
 
 export default app;
