@@ -4,7 +4,7 @@ import cors from "cors";
 const app = express();
 
 const corsOptions = {
-  origin: "https://e-cafe.onrender.com",
+  origin: "https://e-cafe.onrender.com/",
   credentials: true,
 };
 
