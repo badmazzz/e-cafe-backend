@@ -4,7 +4,7 @@ import cors from "cors";
 const app = express();
 
 const corsOptions = {
-  origin: "https://zippy-pudding-4c24a6.netlify.app",
+  origin: "https://capable-cupcake-ddc33c.netlify.app",
   credentials: true,
 };
 
@@ -25,7 +25,7 @@ import orderRouter from "./routes/order.routes.js"
 //Route Declaration
 app.use("/api/v1/user", userRouter);
 app.use("/api/v1/table", tableRouter);
-app.use("/menu", menuRouter);
+app.use("/api/v1/menu", menuRouter);
 app.use("/api/v1/order", orderRouter);
 
 export default app;
