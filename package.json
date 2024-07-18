@@ -10,7 +10,7 @@
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [
-    "Youtube",
+    "E-cafe",
     "react",
     "node",
     "backend"
